@@ -107,4 +107,4 @@ if st.checkbox("Show Correlation Heatmap"):
 
 # Footer
 st.markdown("---")
-st.markdown("Made with ❤️ using Streamlit | Updated Dashboard")
+st.markdown("Made with using Streamlit")
