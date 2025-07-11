@@ -10,7 +10,7 @@ df = df.drop("Unnamed: 0", axis=1)
 df["WklyStudyHours"] = df["WklyStudyHours"].str.replace("05-Oct", "5 - 10")
 
 # Sidebar Filters
-st.sidebar.title("🎛️ Easy Filters")
+st.sidebar.title("Easy Filters")
 st.sidebar.markdown("Use the dropdowns and sliders below to explore the dataset.")
 
 selected_gender = st.sidebar.multiselect("👨‍👩‍👧 Select Gender:", df['Gender'].unique(), default=df['Gender'].unique())
@@ -43,10 +43,6 @@ if st.checkbox("Show Dataset Overview"):
 if st.checkbox("Show Summary Statistics"):
     st.subheader("Summary Statistics")
     st.write(filtered_df.describe())
-
-if st.checkbox("Show Missing Values"):
-    st.subheader("Missing Values")
-    st.write(filtered_df.isnull().sum())
 
 # Gender Distribution
 if st.checkbox("Show Gender Distribution"):
