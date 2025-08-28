@@ -1,4 +1,4 @@
-*** Student Scores Data Analysis Project ***
+ Student Scores Data Analysis Project 
 
 Overview
 This project involves analyzing a dataset of student scores to uncover insights related to various factors affecting student performance. The analysis includes visualizations and statistical summaries to understand the relationships between student scores and factors such as weekly study hours, parental education, practice sport, lunch type, and number of siblings.
