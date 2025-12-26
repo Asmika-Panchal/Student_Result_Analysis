@@ -1,31 +1,46 @@
- Student Scores Data Analysis Project 
+# 🎓 Student Result Analysis
 
-Overview
-This project involves analyzing a dataset of student scores to uncover insights related to various factors affecting student performance. The analysis includes visualizations and statistical summaries to understand the relationships between student scores and factors such as weekly study hours, parental education, practice sport, lunch type, and number of siblings.
+## 📌 Overview
+This project analyzes a dataset of student exam scores to extract insights related to factors affecting academic performance. It uses Python for data analysis and visualization, and includes an interactive dashboard built with Streamlit.
 
-Project Structure: 
-student_scores.csv: The dataset containing student scores and related attributes collected from Kaagle Datasets
-project.ipynb: The Jupyter Notebook containing the analysis and visualizations.
-README.md: This file, providing an overview and instructions for the project.
-how_to_run dashboard.py.txt: This file, tells you how to run the dashboard file.
-dashboard.py: 
+---
 
-Getting Started:
-Prerequisites:
-Ensure you have the following installed on your machine:
-1. Python 3.x
-2. Jupyter Notebook directly or through VS Code Extension
-3. Necessary Python libraries: pandas, numpy, matplotlib, seaborn, streamlit
+## 🔍 Objective
+- Understand how study hours, parental education, sports participation, and other factors relate to student performance.
+- Generate insights using statistical summaries and visualizations.
+- Present results using an interactive dashboard.
 
-Installation:
-1. Clone the repository or download the project files.
-2. Navigate to the project directory.
-3. Install the required Python libraries using:
-pip install pandas numpy matplotlib seaborn streamlit
+---
 
-Running the Analysis:
-1. Open Jupyter Notebook:
-jupyter notebook
-2. Open the project.ipynb file in the Jupyter Notebook interface.
-Run the cells in the notebook to execute the analysis and generate visualizations.
-3. View the dashboard by running it using Streamlit run dashboard.py
+## 🗂️ Dataset
+**Source:** Student scores dataset (CSV) containing attributes like study hours, parent education level, lunch type, sport practice, number of siblings, and exam scores.
+
+### Key Attributes
+- `student_id`  
+- `math_score`, `reading_score`, `writing_score`  
+- `study_hours`  
+- `parental_education`  
+- `lunch_type`  
+- `sports_practice`  
+- `siblings_count`
+
+---
+
+## 📊 Analysis & Visualizations
+- Correlation analysis between study hours and exam scores  
+- Distribution of scores based on demographic factors  
+- Visual comparison between lunch type or sports practice versus performance
+
+---
+
+## ⚙️ Tools & Technologies
+- **Python** (Pandas, NumPy, Matplotlib, Seaborn)  
+- **Jupyter Notebook**  
+- **Streamlit** for interactive dashboard
+
+---
+
+## 🚀 Installation
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/Asmika-Panchal/Student_Result_Analysis.git
